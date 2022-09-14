@@ -24,7 +24,21 @@ ul {
 .introduction,
 .footer {
     background-color: #1F2937;
-    color: white;
+}
+
+.links,
+.small-text,
+.footer {
+    color: #e5e7eb;
+}
+
+.logo,
+.biggest-text {
+    color: #f9faf8;
+}
+
+.logo {
+    font-size: 24px;
 }
 
 .header,
