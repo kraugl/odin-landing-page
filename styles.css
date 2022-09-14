@@ -100,3 +100,33 @@ ul {
 .info-card {
     flex-direction: column;
 }
+
+.information {
+    align-items: center;
+    gap: 20px;
+}
+
+.info-card-container {
+    gap: 50px;
+}
+
+.info-card {
+    align-items: center;
+    gap: 10px;
+}
+
+.info-header {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.info-card-image {
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+}
+
+.info-card-text {
+    inline-size: 150px;
+}
