@@ -1,0 +1,45 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+body,
+.flex {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    gap: 20px;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header,
+.introduction,
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header,
+.introduction,
+.information,
+.call-to-action,
+.quotation,
+.footer {
+    padding: 0 200px;
+}
+
+.intro-info,
+.information,
+.quotation,
+.call-to-action-text,
+.info-card {
+    flex-direction: column;
+}
