@@ -175,3 +175,7 @@ ul {
 .call-to-action-container .sign-up {
     border: 1px solid #f9faf8;
 }
+
+.footer {
+    text-align: center;
+}
